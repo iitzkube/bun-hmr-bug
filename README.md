@@ -1,4 +1,4 @@
-# bun-react-tailwind-template
+# Repro for https://github.com/oven-sh/bun/issues/17900
 
 To install dependencies:
 
