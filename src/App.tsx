@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './index.css';
 
 export function App() {
-  const [result, setResult] = useState<null | any>({});
+  const [result, setResult] = useState<any>({});
   async function onClick() {
     const res = await fetch('/api/data/test', { method: 'POST' });
     const data = await res.json();
