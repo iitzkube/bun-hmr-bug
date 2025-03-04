@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    @apply text-white bg-neutral-700;
+  }
+
+  body {
+    @apply grid place-items-center min-h-screen;
+  }
+}
+
+button {
+  @apply bg-black p-4 rounded-lg hover:bg-neutral-900 cursor-pointer;
+}
